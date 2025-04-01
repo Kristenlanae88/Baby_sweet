@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "64d37dd6-46b6-4351-991f-00fa37d62865",  // Ganti dengan App ID dari OneSignal
+      notifyButton: { enable: true },  // Menampilkan ikon notifikasi di website
+    });
+  });
+</script>
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
